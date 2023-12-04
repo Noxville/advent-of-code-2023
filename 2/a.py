@@ -1,4 +1,4 @@
-with open('2_big') as fin:
+with open('big') as fin:
     ls = [e.strip() for e in fin.readlines()]
 
 

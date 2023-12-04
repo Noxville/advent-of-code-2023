@@ -1,6 +1,6 @@
 from a import neigh
 
-with open('3_big') as fin:
+with open('big') as fin:
     ls = [e.strip() for e in fin.readlines()]
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 import re
 
-with open('1_big') as fin:
+with open('big') as fin:
     ls = [e.strip() for e in fin.readlines()]
 
 dig_map = {}
